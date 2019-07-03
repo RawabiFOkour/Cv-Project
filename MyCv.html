@@ -2,26 +2,180 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style type="text/css">
 		.ParentClass{
 			display: grid;
 			border: 1px solid red;
-			grid-template-columns: 1fr 200px;
+			grid-template-columns: 1fr 500px;
+			padding: 5px;
+			width: 100%;
+/*			height: auto;
+*/			
+
 
 		}
+		#headerDiv{
+			grid-area:1/1/2/4; 
+			/*border: 3px solid black;*/
+			width: 100%;
+			height: 270px;
+			
+		}
+
+		#coverPic{
+			width: 100%;
+			height: 270px;
+			background-repeat: no-repeat;
+		}
+
+		#LeftDivRow1{
+			grid-area:2/1/3/2; 
+			/*width: auto;
+			height: auto;*/
+		}
+		#RightDivRow1{
+			grid-area:2/2/3/4;
+			
+		}
+
+		#LeftDivRow2{
+			grid-area:3/1/4/2; 
+			border: 3px solid black; 
+		}
+		#RightDivRow2{
+			grid-area:3/2/4/4;
+			border: 3px solid black; 
+		}
+		#LeftDivRow3{
+			grid-area:4/1/5/2; 
+			border: 3px solid black; 
+		}
+		#RightDivRow3{
+			grid-area:4/2/5/4;
+			border: 3px solid black; 
+		}
+		#footerDiv{
+			grid-area: 5/1/6/4;
+			border: 3px solid black;
+			width: 100%;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+		}
+
+		#DivPic{
+		    position: absolute;
+            top: 65px;
+            right: 150px;
+            width: 300px;
+            height: 300px;
+  
+		}
+		#MyPic{
+			width: 300px;
+			height: 300px;
+		}
+		#TextColorDiv{
+			position: absolute;
+            top: 6px;
+            left: 60px;
+            width: 500px;
+            height: 300px;
+            color: white;
+            text-align:left;
+            padding-top: 45px;
+            padding-left: 3px;
+
+		}
+		#hr1{
+			margin-left: 50px;
+			margin-right: 300px;
+			margin-top: 150px;
+
+		}
+		#hr2{
+			margin-left:70px ;
+			margin-right:50px;
+			margin-top: 150px;
+		}
+		#border{
+			border: 1px solid black;
+			width: 50px;
+			height: 3px;
+			background-color: red;
+			/*margin-top:50px;*/
+		}
+
+		@media screen and (max-width: 600px) {
+            
+        }
+
 
 		
 	</style>
 </head>
 <body>
 <div class="ParentClass">
-	<div id="headerDiv"></div>
-	<div id="LeftDivRow1"></div>
-	<div id="RightDivRow1"></div>
-	<div id="LeftDivRow2"></div>
-	<div id="RightDivRow2"></div>
-	<div id="LeftDivRow3"></div>
-	<div id="RightDivRow3"></div>
+	<header id="headerDiv">
+		<div>
+		<img id="coverPic" src="https://coverfiles.alphacoders.com/687/68706.jpg" >
+        
+	    </div>
+
+	    <div id="TextColorDiv">
+	    <h1 id="name">RAWABI OKOUR</h1>
+        <h2 id="Major">Computer Science</h2>
+         <p>
+                    In 2017 I was awarded my Bachelor degree in Computer Science.
+                    Then I joined a training programs at GCE and RSS Companies .
+                    Now I intend to complete the work in web development using Asp.Net(Web Api, Mvc5) ,
+                    and Increase my ability to acquire the necessary skills for this work. 
+                </p>
+	    </div>
+
+	    <div id="DivPic">
+	    	<img src="65588246_893155317744163_535930022104399872_n.jpg" id="MyPic">
+	    </div>
+
+	</header> 
+	<div id="LeftDivRow1">
+
+		<div id="border"></div>
+		<hr id="hr1">
+		
+		<h1>EXPERIENCE</h1>
+		<div>
+			<h6>RSS - Royal Scientific Society <br>(Training program),<br>
+                Jbaiha, Amman </h6>
+			<p> <ul>
+                    <li>I have Completed two online courses (Querying Data with Transact-SQL, Build Web APIs using ASP.NET ) .</li>
+                    <li>I prepared the user manuals of the Princess Sumaya University for Technology (PSUT) system.</li>
+                    <li>Quality testing for the website of PSUT and Mobile application PSUT system.</li>
+                    <li>Aquired basic informations of MVC5 and Web Api with Mvc5 .</li>
+                    <li> Aquired basic informations of ADO.NET Entity Data Model .</li>
+                </ul>
+</p>
+		</div>
+		<div></div>
+		<div></div>
+	</div>
+	<div id="RightDivRow1">
+		<hr id="hr2">
+
+
+
+
+	</div>
+	<div id="LeftDivRow2">erwt</div>
+	<div id="RightDivRow2">t4t3yer</div>
+	<div id="LeftDivRow3">sfsaryr</div>
+	<div id="RightDivRow3">reysthft</div>
+	
+
+	<footer>
+	<div id="footerDiv">rhdfhrts</div>
+</footer>
 </div>
 
 
@@ -40,9 +194,7 @@
 
 
 
-<footer>
-	
-</footer>
+
 
 </body>
 </html>
