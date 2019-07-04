@@ -31,9 +31,17 @@
 
 		#LeftDivRow1{
 			grid-area:2/1/3/2; 
+			border: 1px solid green;
+
 			/*width: auto;
 			height: auto;*/
 		}
+		/*.gridDiv{
+			display: grid;
+			grid-template-columns: 200px 1fr;
+			width: 150%;
+			border: 1px solid red;
+		}*/
 		#RightDivRow1{
 			grid-area:2/2/3/4;
 			
@@ -89,23 +97,50 @@
 
 		}
 		#hr1{
+			border: 1px solid black;
+			width: 900px;
 			margin-left: 50px;
 			margin-right: 300px;
-			margin-top: 150px;
 
 		}
 		#hr2{
-			margin-left:70px ;
-			margin-right:50px;
-			margin-top: 150px;
+		    border: 1px solid black;
+			width: 400px;
+			margin-left:90px ;
+			margin-right:300px;
 		}
-		#border{
+		#border1{
 			border: 1px solid black;
 			width: 50px;
 			height: 3px;
-			background-color: red;
-			/*margin-top:50px;*/
+			background-color: black;
+			margin-top:150px;
+			margin-left: 50px;
 		}
+
+		#border2{
+			border: 1px solid black;
+			width: 50px;
+			height: 3px;
+			background-color: black;
+			margin-top:150px;
+			margin-left: 90px;
+		}
+		.floatLeft{
+			float: left;
+
+		}
+		.h1class{
+			margin-left: 50px;
+		}
+		.move{
+			margin-left: 50px;
+		}
+		.marginP{
+		    margin-left: 80px;
+
+		}
+		
 
 		@media screen and (max-width: 600px) {
             
@@ -138,15 +173,57 @@
 	    	<img src="65588246_893155317744163_535930022104399872_n.jpg" id="MyPic">
 	    </div>
 
-	</header> 
-	<div id="LeftDivRow1">
+	</header>
 
-		<div id="border"></div>
-		<hr id="hr1">
-		
-		<h1>EXPERIENCE</h1>
-		<div>
-			<h6>RSS - Royal Scientific Society <br>(Training program),<br>
+	<div id="LeftDivRow1" class="gridDiv">
+	<div id="border1"></div>
+		<div id="hr1"></div>
+      <!--   <div><h1 class="h1class">EXPERIENCE</h1></div> -->
+		<!-- <div><br>RSS - Royal Scientific Society <br>(Training program),<br>
+                Jbaiha, Amman</div>
+		<div><p> <ul>
+                    <li>I have Completed two online courses (Querying Data with Transact-SQL, Build Web APIs using ASP.NET ) .</li>
+                    <li>I prepared the user manuals of the Princess Sumaya University for Technology (PSUT) system.</li>
+                    <li>Quality testing for the website of PSUT and Mobile application PSUT system.</li>
+                    <li>Aquired basic informations of MVC5 and Web Api with Mvc5 .</li>
+                    <li> Aquired basic informations of ADO.NET Entity Data Model .</li>
+                </ul>
+</p></div>
+		<div>GCE - General Computer & Electronics Co.<br />
+                (Training program),<br>
+            Queen Rania Street, Amman</div>
+		<div>Training program in C#, asp.net Web API , SqlServer, Css, JavaScript, AspMap</div>
+ -->
+
+		<div id="border1"></div>
+		<div id="hr1"></div> 
+		<h1 class="h1class">EXPERIENCE</h1>
+        <div class="move">
+        	<div class="floatLeft "> <br>RSS - Royal Scientific Society <br>(Training program),<br>
+                Jbaiha, Amman</div>
+        	<div class="floatLeft marginP"><p> <ul>
+                    <li>I have Completed two online courses (Querying Data with Transact-SQL, Build Web APIs using ASP.NET ) .</li>
+                    <li>I prepared the user manuals of the Princess Sumaya University for Technology (PSUT) system.</li>
+                    <li>Quality testing for the website of PSUT and Mobile application PSUT system.</li>
+                    <li>Aquired basic informations of MVC5 and Web Api with Mvc5 .</li>
+                    <li> Aquired basic informations of ADO.NET Entity Data Model .</li>
+                </ul>
+</p></div>
+        </div>
+        <div class="move">
+        	<div class="floatLeft">GCE - General Computer & Electronics Co.<br />
+                (Training program),<br>
+            Queen Rania Street, Amman</div>
+        	<div class="floatLeft  marginP">
+        		<p>Training program in C#, asp.net Web API , SqlServer, Css, JavaScript, AspMap</p>
+        	</div>
+        </div>
+        <div class="move">
+        	<div class="floatLeft"></div>
+        	<div class="floatLeft"></div>
+        </div> 
+		<div> 
+			<!-- <h6>RSS - Royal Scientific Society <br>(Training program),<br>
                 Jbaiha, Amman </h6>
 			<p> <ul>
                     <li>I have Completed two online courses (Querying Data with Transact-SQL, Build Web APIs using ASP.NET ) .</li>
@@ -158,10 +235,17 @@
 </p>
 		</div>
 		<div></div>
-		<div></div>
+		<div></div> -->
+
+
 	</div>
+
+
+
 	<div id="RightDivRow1">
-		<hr id="hr2">
+		
+		<div id="border2"></div>
+		<div id="hr2"></div>
 
 
 

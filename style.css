@@ -1,0 +1,290 @@
+.ParentClass{
+			display: grid;
+			grid-template-columns: 1fr 400px;
+			padding: 5px;
+			width: 100%;	
+
+
+		}
+		#headerDiv{
+			grid-area:1/1/2/4; 
+			width: 100%;
+			height: 270px;
+			
+		}
+
+		#coverPic{
+			width: 100%;
+			height: 270px;
+			background-repeat: no-repeat;
+
+		}
+
+		#LeftDivRow1{
+
+			grid-area:2/1/3/2; 
+			display: grid;
+			grid-template-columns: 200px 600px;
+
+
+		}	
+		#RightDivRow1{
+			display: grid;
+			grid-template-columns: 180px 500px;
+			grid-area:2/2/3/4;
+
+			
+		}
+
+		#LeftDivRow2{
+			display: grid;
+			grid-template-columns: 200px 600px;
+
+			grid-area:3/1/4/2; 
+		}
+		#RightDivRow2{
+			display: grid;
+			grid-template-columns: 180px 500px;
+			grid-area:3/2/4/4; 
+		}
+		#LeftDivRow3{
+			grid-area:4/1/5/2;
+			display: grid;
+			grid-template-columns: 200px 600px; 
+
+		}
+		#RightDivRow3{
+			grid-area:4/2/5/4;
+			display: grid;
+			grid-template-columns: 180px 500px; 
+		}
+		#footerDiv{
+	
+			grid-area: 5/1/6/4;
+			display: grid;
+		    grid-template-columns:1fr 400px;
+			width: 100%;
+			height: 100px;
+			background-image: url(https://coverfiles.alphacoders.com/687/68706.jpg);
+			background-repeat: no-repeat;
+
+		}
+
+		#DivPic{
+		    position: absolute;
+            top: 65px;
+            right: 150px;
+            width: 300px;
+            height: 300px;
+  
+		}
+		#MyPic{
+			width: 300px;
+			height: 300px;
+
+		}
+		#TextColorDiv{
+			position: absolute;
+            top: 6px;
+            left: 60px;
+            width: 500px;
+            height: 300px;
+            color: white;
+            text-align:left;
+            padding-top: 45px;
+            padding-left: 3px;
+
+		}
+		#hr1{
+			border: 1px solid black;
+			width: 500px;
+			margin-left:90px ;
+			margin-right:300px;
+
+		}
+		#hr2{
+		    border: 1px solid black;
+			width: 400px;
+			margin-left:90px ;
+			margin-right:300px;
+		}
+		#border1{
+			border: 1px solid black;
+			width: 50px;
+			height: 3px;
+			background-color: black;
+			margin-top:150px;
+			margin-left: 90px;
+		}
+
+		#border2{
+			border: 1px solid black;
+			width: 50px;
+			height: 3px;
+			background-color: black;
+			margin-top:150px;
+			margin-left: 90px;
+		}
+        .h1class{
+			margin-left: 90px;
+		}
+		.h1class2{
+			margin-left: 90px;
+			margin-top: 130px;
+		}
+		
+		#gridArea1{
+			grid-area: 1/1/2/8;
+		}
+		#gridArea2{
+			grid-area: 2/1/3/2;
+			margin-left:83px;
+		}
+		#gridArea3{
+			grid-area: 2/2/3/8;
+		}
+		#gridArea4{
+			grid-area: 3/1/4/2;
+			margin-left:83px;
+
+		}
+		#gridArea5{
+			grid-area: 3/2/4/8;
+			margin-left:20px;
+			margin-top: 35px;
+		}
+		#gArea1{
+			grid-area: 1/1/2/6;
+		}
+		#gArea2{
+			grid-area: 2/1/4/6;
+			margin-left:72px;
+			
+		}
+		#gArea3{
+			grid-area: 3/1/4/6;
+			
+
+		
+		}
+		#gArea4{
+			grid-area: 4/1/5/2;
+		    margin-left:95px;
+		}
+		#gArea5{
+			grid-area: 4/2/5/6;   
+            margin-left: 20px;
+        }
+        #EducatinDiv0{
+        	grid-area: 1/1/2/6;
+        }
+        #EducatinDiv1{
+        	
+        	grid-area: 2/1/3/2;
+			margin-left:83px;
+			margin-top:15px;
+        }
+        #EducatinDiv2{
+        	grid-area: 2/2/3/6;
+        	margin-left:40px;
+        }
+        #EducatinDiv3{
+        	grid-area: 3/1/4/2;
+			margin-left:83px;
+			margin-top:15px;
+
+		
+        }
+        #EducatinDiv4{
+        	grid-area: 3/2/4/6;
+        	margin-left:40px;
+        }
+        #EducatinDiv5{
+        	grid-area: 4/1/5/2;
+        	margin-left:83px;
+        	margin-top: 15px;
+
+        }
+        #EducatinDiv6{
+            grid-area: 4/2/5/6;
+            margin-top: 5px;
+            margin-left:40px;
+        }
+        #ProgrammingLang1{
+        	grid-area: 1/1/2/6;
+        }
+        #ProgrammingLang2{
+        	grid-area: 2/1/3/6;
+			margin-left:72px;
+           /* border:1px solid red;*/
+            margin-top: 0px;
+        }
+        #Intrest1{
+        	grid-area: 1/1/2/8;
+        }
+        #Intrest2{
+        	margin-left:70px;
+        	grid-area: 2/1/3/2;
+        }
+        #Intrest3{
+        	grid-area: 2/2/3/3;
+        	margin-left:70px;
+        }
+        #Lang1{
+        	grid-area: 1/1/2/6;
+
+        }
+        #Lang2{
+        	grid-area: 2/1/3/2;
+        	margin-left:87px; 
+        }
+        #Lang3{
+        	grid-area: 2/2/3/3;
+            margin-left:78px;
+        	
+        }
+        #footer1{
+        	grid-area: 1/1/2/2;
+        	margin-top: 30px;
+        	margin-left: 30px;
+        	color: white;
+        	font-weight: bold;
+        	font-size:20px;
+        }
+         #footer2{
+        	grid-area: 1/2/2/3;
+        	margin-top: 30px;
+        	margin-left: 30px;
+        	color: white;
+        	font-weight: bold;
+        	font-size:20px;
+        }
+         #footer3{
+        	grid-area: 1/3/2/4;
+        	margin-top: 30px;
+        	margin-left: 370px;
+        	margin-right: 40px;
+        	color: white;
+        	font-weight: bold;
+        	font-size:20px;
+        	
+        }
+   /* .prog {
+    margin-top: 22px;
+    }
+
+    .prog {
+    border-radius: 2px;
+    width: 80%;
+    height: 6px;
+    margin-left: -11.5%;
+    }
+
+    .prog::-webkit-progress-bar {
+    background-color: rgb(144, 144, 144);
+    border-radius: 2px;
+    }
+
+    .prog::-webkit-progress-value {
+    border-radius: 2px;
+    }*/
